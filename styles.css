@@ -1,11 +1,13 @@
-.sidenav {
-font-weight: middle;
+.sidenav a {
+font-weight: bold;
 margin-bottom:  15px;
+color: black;
 }
 .sidenav{
 /* 	border: 3px solid black;
 	padding: 10px; */
 	background: lightcoral;
+    opacity: 0.5;
     float: left;
     padding: 15px 0 15px 15px;
     left: 0;
@@ -14,4 +16,11 @@ margin-bottom:  15px;
     position: relative;
     font-size: 1.8rem;
     align-items: center;
+}
+.container-fluid{
+    border: 5px dashed black;
+    background-color: beige
+}
+.js-section, welcome, about, projects, contact{
+    style: display:block;
 }
