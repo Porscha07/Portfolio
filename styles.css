@@ -1,3 +1,17 @@
-h1{
-	color:  blue;
+.sidenav {
+font-weight: middle;
+margin-bottom:  15px;
+}
+.sidenav{
+/* 	border: 3px solid black;
+	padding: 10px; */
+	background: lightcoral;
+    float: left;
+    padding: 15px 0 15px 15px;
+    left: 0;
+    width: 20%;
+    line-height: 103px;
+    position: relative;
+    font-size: 1.8rem;
+    align-items: center;
 }
