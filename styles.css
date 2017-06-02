@@ -1,5 +1,19 @@
 /* *************GLOBAL STYLES**************** */
 
+#text-line1{
+    font-family:'Chewy'; font-size: 20px;
+    left: 191px;
+    position: relative;
+    text-align: center;
+    padding-top: 137px;
+    padding-left: -15px;
+}
+#text-line2{
+    font-family:'Bungee Shade'; font-size: 26px;
+    left: 195px;
+    position: relative;
+    text-align: center;
+}
 .main-page-wrapper{
     background-color: beige;
 }
@@ -62,39 +76,3 @@ text-align: center;
     height: 97%;
     border-radius: 15px;
 }
- /* #border-top{
-    border: 5px dashed black; 
-    background-color: beige;
- }
- #border-bottom{
-    border: 5px dashed black;
-    background-color: beige;
-} */
-
-
-/* .border .border.bottom {
-    border-bottom: 5px dashed black;
-    background-color: beige;    
-}
-.border .border.left{
-     border: 5px dashed black;
-    background-color: beige;
-}
- .border .border.right{
-    border: 5px dashed black;
-    background-color: beige;
-} */
-
-/* .js-section, welcome, about, projects, contact{
-    display:block;
-} */
-/* .main-text h2{
-    font: 1.8 rem 'Bungee Hairline', sans-serif;
-}
-
-.main-text h1{
-    margin: 0 auto;
-    word-wrap: break-word;
-    font: 8rem 'Bungee Shade',cursive; */
-/* }
- */
