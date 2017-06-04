@@ -8,7 +8,14 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="scripts.js"></script>
+	<!-- <script type="text/javascript" src="scripts.js"></script> -->
+	<script>
+	$(document).ready(function(){
+		$('.js-about').click(function(){
+			$('.about').fadeIn();
+		});
+	});
+	</script>
 </head>
 <body>
 			
@@ -28,10 +35,10 @@
 		<nav class="sidenav">
 			<!-- <ul> -->
 				  <div><a class="js-welcome js-nav-link js-selected">Hi</a></div> <!-- !// ind really cool picture add some cool quote or graphic with it -->
-				  <li><a class= "js-about js-nav-link">About</a></li><!-- / photo/include 2 paragraphs of my story/ also include skills -->
-				  <li><a class= "js-projects js-nav-link">Projects</a></li>
+				  <li><a class= "js-about js-nav-link" href="#0">About</a></li><!-- / photo/include 2 paragraphs of my story/ also include skills -->
+				  <li><a class= "js-projects js-nav-link" href="#0">Projects</a></li>
 				  <li><a class="js-blog js-nav-link" href="https://medium.com/@PorschaRJohnson">Blog</a></li><!-- // will connect to an another link -->
-				  <li><a class="js-contact js-nav-link" >Contact</a></li><!-- //include social media icons/a couple of lines to describe what im looking for (linkedin, medium, github, email, resume) -->
+				  <li><a class="js-contact js-nav-link" href="#0">Contact</a></li><!-- //include social media icons/a couple of lines to describe what im looking for (linkedin, medium, github, email, resume) -->
 			<!-- </ul> -->
 		</nav>
 			<main>
@@ -53,10 +60,24 @@
 					<!-- About Section -->
 					<div class="about js-section">
 						<div class="container">
-							<div class"bio">
+							<div class="bio">
 								<h3>My name is Porscha.</h3>
 								<p>kfdfldfkdfdaklfadfadlfdkfdfdfdafdfd</p>
 							</div>
+							    <div class="skills">
+                            		<h3>My skills include:</h3>
+	                            	<ul class="cf">
+		                                <li>HTML5 / CSS3 / React.js</li>
+		                                <li>Bootstrap / Flexbox</li>
+		                                <li>JavaScript / jQuery</li>
+		                                <li>Node.js / Express</li>
+		                                <li>Python / JSON</li>
+		                                <li>MongoDB</li>
+		                                <li>MySQL</li>
+		                                <li>A.W.S</li>
+		                                <li>Linux</li>
+	                           		 </ul>
+                        		</div>
 						</div>
 					</div>
 					<!-- Projects Section -->
