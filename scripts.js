@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 	$('.js-about').on('click',function(){
-		$('.skills').fadeIn();
+		$('.skills-list').fadeIn();
 	});
 });
 
