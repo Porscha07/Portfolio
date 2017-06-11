@@ -1,9 +1,9 @@
 
-$(document).ready(function(){
-	$('.js-about').on('click',function(){
-		$('.skills-list').fadeIn();
-	});
-});
+// $(document).ready(function(){
+// 	$('.js-about').on('click',function(){
+// 		$('.skills-list').fadeIn();
+// 	});
+// });
 
    // $('.js-about').on('click', function() {
    //    $('.skills').animate({down: '300px'})

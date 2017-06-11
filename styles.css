@@ -1,4 +1,31 @@
-/* *************GLOBAL STYLES**************** */
+
+body{
+    background-image: url("file:///Users/Porscha/Downloads/leaves.jpeg");
+}
+
+#first-name-wrapper{
+    color: beige;
+    font-family: 'The Girl Next Door';
+}
+#title-wrapper{
+    color: beige;
+    font-family: 'The Girl Next Door';
+    margin-top: -2em;
+    font-size: -6em;
+}
+.main-wrapper{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 6.5em;
+}
+
+
+
+
+
+* *************GLOBAL STYLES**************** */
+/* 
+
 
 #text-line1{
     font-family:'Chewy'; font-size: 20px;
@@ -69,10 +96,10 @@ text-align: center;
     height: 100%;
 }
 .border{
-    border: 6px dashed black;
+    border: 6px solid black;
     background: beige;
     position: fixed;
     width: 98%;
     height: 97%;
     border-radius: 15px;
-}
+} */
