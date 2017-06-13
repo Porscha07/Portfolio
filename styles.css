@@ -1,7 +1,4 @@
 
-body{
-    background-image: url("file:///Users/Porscha/Downloads/leaves.jpeg");
-}
 
 #first-name-wrapper{
     color: beige;
@@ -13,10 +10,24 @@ body{
     margin-top: -2em;
     font-size: -6em;
 }
-.main-wrapper{
+#splashscreen{
     text-align: center;
     font-size: 2em;
-    margin-top: 6.5em;
+    /* margin-top: 6.5em; */
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-image: url("file:///Users/Porscha/Downloads/leaves.jpeg");
+}
+body {
+    background-color:beige;
+}
+
+
+.enter_link{
+   border: 3px solid beige;
 }
 
 

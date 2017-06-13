@@ -1,9 +1,10 @@
 
-// $(document).ready(function(){
-// 	$('.js-about').on('click',function(){
-// 		$('.skills-list').fadeIn();
-// 	});
-// });
+$(document).ready(function(){
+	$('.enter_link').click(function () {
+    $(this).parent('#splashscreen').fadeOut(500);
+	});
+	
+});
 
    // $('.js-about').on('click', function() {
    //    $('.skills').animate({down: '300px'})
