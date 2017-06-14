@@ -27,14 +27,19 @@ body {
 
 
 .enter_link{
-   border: 3px solid beige;
+/*    border: 3px solid slategrey;
+   border-radius: .30em; */
+} 
+h5{
+    color: beige;
+    font-family: 'The Girl Next Door';
 }
 
 
 
 
 
-* *************GLOBAL STYLES**************** */
+* *************GLOBAL STYLES****************
 /* 
 
 

@@ -1,0 +1,34 @@
+body{
+	background-color: beige;
+}
+
+.navbar {
+  background-color: #B7CEEC;
+  height: 4em;
+  margin-top: 6em;
+}
+
+.icon-bar {
+  background-color: #224cbd;
+}
+
+img { 
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.img-responsive{
+	height: 29em;
+	width: 89em;
+	margin-top: 2em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.img-circle{
+	border-radius: 50%;
+	height: 20em;
+	margin-left: 55em;
+}
