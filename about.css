@@ -21,14 +21,27 @@ img {
 }
 
 .img-responsive{
-	height: 29em;
+	height: 48em;
 	width: 89em;
 	margin-top: 2em;
 	background-size: cover;
 	background-repeat: no-repeat;
+	position: absolute;
 }
 .img-circle{
-	border-radius: 50%;
+/* 	border-radius: 50%;
 	height: 20em;
-	margin-left: 55em;
+	margin-left: 55em; */
+    border: 15px solid beige;
+    border-radius: 100%;
+    /* border-top-left-radius: 2em; */
+    /* border-bottom-right-radius: 2em; */
+    margin-right: 17em;
+    width: 250px;
+    float: right;
+    margin-top: 43em;
+    position: absolute;
+    margin-left: 54em;
+    z-index: 5px;
+
 }

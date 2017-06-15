@@ -3,12 +3,14 @@
 #first-name-wrapper{
     color: beige;
     font-family: 'The Girl Next Door';
+    margin-top: 4em;
+    font-size: 2em;
 }
 #title-wrapper{
     color: beige;
     font-family: 'The Girl Next Door';
-    margin-top: -2em;
-    font-size: -6em;
+    margin-top: -4em;
+    font-size: -3em;
 }
 #splashscreen{
     text-align: center;
@@ -33,89 +35,11 @@ body {
 h5{
     color: beige;
     font-family: 'The Girl Next Door';
+    margin-top: -1em;
+}
+
+p{
+    margin-top: 53 em;
 }
 
 
-
-
-
-* *************GLOBAL STYLES****************
-/* 
-
-
-#text-line1{
-    font-family:'Chewy'; font-size: 20px;
-    left: 191px;
-    position: relative;
-    text-align: center;
-    padding-top: 137px;
-    padding-left: -15px;
-}
-#text-line2{
-    font-family:'Bungee Shade'; font-size: 26px;
-    left: 195px;
-    position: relative;
-    text-align: center;
-}
-.main-page-wrapper{
-    background-color: beige;
-}
-
-.js-welcome{
-    background-color: blue;
-    height: 98px;
-    width: 344px;
-    list-style-type: none;
-}
-
-.js-nav-link:hover{
-      background-color: blue;
-}
-.js-nav-link, li{
-    height: 98px;
-    width: 100%;
-    list-style-type: none;
-    color: white;
-    text-decoration: underline;
-
-}
-
-a:visited{
-    color: white;
-}
-
-
-.sidenav a {
-font-weight: bold;
-margin-bottom:  15px;
-display: inline-block;
-text-align: center;
-}
-
-/* ul{
-    text-align: center;
-} */
-.sidenav{
-/* 	border: 3px solid black;
-	padding: 10px; */
-	background: lightcoral;
-    opacity: 0.7;
-    float: left;
-    padding: 15px 0 15px 15px;
-    left: 0;
-    width: 20%;
-    line-height: 103px;
-    position: fixed;
-    font-size: 1.8rem;
-    align-items: center;
-    transform-style: preserve-3d;
-    height: 100%;
-}
-.border{
-    border: 6px solid black;
-    background: beige;
-    position: fixed;
-    width: 98%;
-    height: 97%;
-    border-radius: 15px;
-} */
