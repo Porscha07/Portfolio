@@ -22,6 +22,7 @@
     bottom:0;
     width:100%;
     background-image: url("file:///Users/Porscha/Downloads/leaves.jpeg");
+    background-repeat: no-repeat;
 }
 body {
     background-color:beige;

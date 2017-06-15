@@ -7,9 +7,19 @@ body{
   height: 4em;
   margin-top: 6em;
 }
+.navbar-brand{
+  font-family:'The Girl Next Door';
+  font-size: 2em;
+  border: 1px solid darkblue;
+}
 
 .icon-bar {
   background-color: #224cbd;
+}
+#myNavbar{
+  font-family:'The Girl Next Door';
+  font-size: 2.5em;
+
 }
 
 img { 
@@ -21,7 +31,7 @@ img {
 }
 
 .img-responsive{
-	height: 48em;
+	height: 30em;
 	width: 89em;
 	margin-top: 2em;
 	background-size: cover;
@@ -39,9 +49,47 @@ img {
     margin-right: 17em;
     width: 250px;
     float: right;
-    margin-top: 43em;
+    margin-top: 27em;
     position: absolute;
-    margin-left: 54em;
+    margin-left: 51em;
     z-index: 5px;
 
 }
+.about-section{
+  margin-top: 38em;
+}
+.about-section h3{
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  font-family:'The Girl Next Door';
+}
+.about-section p{
+/* position: absolute; */
+font-size:1em;
+margin-top: 6em;
+}
+
+.portfolio-section{
+  background-color: lightcyan; 
+}
+
+.row-3 a img {
+  margin-bottom:2em
+}
+.row-2 a{
+  margin-right:-22em
+}
+.row-2 a img{
+  margin-left: -6em;
+}
+.contact-form{
+  border: 3px solid beige;
+  position: absolute;
+}
+.contact-section img{
+  width: 40em;
+
+}
+
+
