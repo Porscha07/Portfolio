@@ -1,16 +1,17 @@
 body{
-	background-color: beige;
+	background-color: lightgrey;
 }
 
 .navbar {
   background-color: #B7CEEC;
   height: 4em;
-  margin-top: 6em;
+  margin-top: 2em;
 }
 .navbar-brand{
   font-family:'The Girl Next Door';
   font-size: 2em;
   border: 1px solid darkblue;
+  height: 54px;
 }
 
 .icon-bar {
@@ -42,7 +43,7 @@ img {
 /* 	border-radius: 50%;
 	height: 20em;
 	margin-left: 55em; */
-    border: 15px solid beige;
+    border: 15px solid lightgrey;
     border-radius: 100%;
     /* border-top-left-radius: 2em; */
     /* border-bottom-right-radius: 2em; */
@@ -55,23 +56,97 @@ img {
     z-index: 5px;
 
 }
-.about-section{
-  margin-top: 38em;
+#about {
+  margin-top: 46em;
 }
-.about-section h3{
+#about h3{
   position: absolute;
   font-size: 3em;
   font-weight: bold;
   font-family:'The Girl Next Door';
+  margin-top: -102px;
 }
-.about-section p{
+#about p{
 /* position: absolute; */
 font-size:1em;
 margin-top: 6em;
 }
 
-.portfolio-section{
-  background-color: lightcyan; 
+#skills img{
+  margin-left: -30px;
+  width: 106%;
+  height: 300px;
+  opacity: 0.3;
+  border: 5px solid darkblue;
+}
+/* what I know */
+#skills h2{   
+  position: absolute;
+  font-family:'The Girl Next Door';
+  text-align: center;
+  /* border: 2px solid black; */
+  margin-left: 185px;
+  font-size: 25px;
+  font-weight: bold;
+  color: darkblue;
+}
+/* what I'm learning */
+#future-skills h2{
+  position: absolute;
+  /* padding-left: 711px; */
+  font-family:'The Girl Next Door';
+  text-align: center;
+  /* border: 2px solid black; */
+  margin-left: 647px;
+  margin-top: 21px;
+  font-size: 25px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.skills-grid{
+  /* border: 2px solid black; */
+  position: absolute;
+  margin-top: 69px;
+  text-align: center;
+  height: 100px;
+  color: black;
+  /* padding-bottom: 13.5px; */
+}
+.learning-grid{
+  /* border: 2px solid black; */
+  position: absolute;
+  margin-top: 84px;
+  text-align: center;
+  color: black;
+
+}
+.icon-grid{
+  font-family:'The Girl Next Door';
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  /* margin-top: 66px; */
+
+}
+.label5{
+  color: black;
+  margin-top: -18px;
+  margin-right: 71px;
+}
+
+#portfolio h1{
+  background-color: lightgrey; 
+  font-family:'The Girl Next Door';
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+#portfolio p{
+   font-family:'The Girl Next Door';
+  color: black;
+  font-size: 20px;
+  text-align: center;
 }
 
 .row-3 a img {
@@ -87,9 +162,26 @@ margin-top: 6em;
   border: 3px solid beige;
   position: absolute;
 }
-.contact-section img{
-  width: 40em;
+
+#contact{
+ background-color: #B7CEEC;
+}
+
+#contact h1{
+  background-color: #B7CEEC;
+  font-family:'The Girl Next Door';
+  color: black;
+  font-size: 40px;
+  text-align: center;
 
 }
+
+#contact p{
+  font-family:'The Girl Next Door';
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
 
 
