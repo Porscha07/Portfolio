@@ -1,0 +1,14 @@
+.gamesBack, .btn{
+	float: left;
+	padding: 20px;
+}
+
+.header{
+	text-align: center;
+	font-size: large;
+}
+
+.team{
+	text-align: center;
+	margin: auto;
+}

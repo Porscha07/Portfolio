@@ -68,8 +68,10 @@ img {
 }
 #about p{
 /* position: absolute; */
-font-size:1em;
+font-size:2em;
+font-weight: bold;
 margin-top: 6em;
+font-family:'The Girl Next Door';
 }
 
 #skills img{
@@ -99,7 +101,7 @@ margin-top: 6em;
   /* border: 2px solid black; */
   margin-left: 647px;
   margin-top: 21px;
-  font-size: 25px;
+  font-size: 2em;
   font-weight: bold;
   color: darkblue;
 }
@@ -111,6 +113,7 @@ margin-top: 6em;
   text-align: center;
   height: 100px;
   color: black;
+  font-size: 2em;
   /* padding-bottom: 13.5px; */
 }
 .learning-grid{
@@ -119,6 +122,7 @@ margin-top: 6em;
   margin-top: 84px;
   text-align: center;
   color: black;
+  font-size: 2em;
 
 }
 .icon-grid{
