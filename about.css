@@ -188,6 +188,24 @@ font-family:'Peddana';
   text-align: center;
   font-weight: bold;
 }
+ .contact .container {
+    max-width: 750px;
+  }
+
+  .social-icons a {
+    color: #2B2D42;
+  }
+
+  .social-icons ul li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    list-style-type: none;
+    font-size: 28px;
+     font-family:'The Girl Next Door';
+     font-weight: bold;
+     margin-bottom: 24px;
+  }
 
 #footer{
    background-color: #B7CEEC;
