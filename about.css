@@ -63,15 +63,15 @@ img {
   position: absolute;
   font-size: 3em;
   font-weight: bold;
-  font-family:'The Girl Next Door';
+  font-family:'Peddana';
   margin-top: -102px;
 }
 #about p{
 /* position: absolute; */
 font-size:2em;
 font-weight: bold;
-margin-top: 6em;
-font-family:'The Girl Next Door';
+margin-top: 0em;
+font-family:'Peddana';
 }
 
 #skills img{
@@ -151,6 +151,7 @@ font-family:'The Girl Next Door';
   color: black;
   font-size: 20px;
   text-align: center;
+  font-weight: bold;
 }
 
 .row-3 a img {
@@ -185,6 +186,19 @@ font-family:'The Girl Next Door';
   color: black;
   font-size: 20px;
   text-align: center;
+  font-weight: bold;
+}
+
+#footer{
+   background-color: #B7CEEC;
+}
+
+#footer p{
+  font-family:'The Girl Next Door';
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+
 }
 
 
