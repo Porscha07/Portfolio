@@ -63,15 +63,15 @@ img {
   position: absolute;
   font-size: 3em;
   font-weight: bold;
-  font-family:'Peddana';
+  font-family:'The Girl Next Door';
   margin-top: -102px;
 }
 #about p{
 /* position: absolute; */
-font-size:2em;
+font-size:1.5em;
 font-weight: bold;
 margin-top: 0em;
-font-family:'Peddana';
+font-family:'The Girl Next Door';
 }
 
 #skills img{
