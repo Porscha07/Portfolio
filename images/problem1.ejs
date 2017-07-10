@@ -1,0 +1,53 @@
+// <!-- ******Problem 1-Festopia************ -->
+
+// <ol class = "sidebar-cat" >
+// 	<li>
+// 		<form id="search-form" action="/search" method="post" accept-charset="utf-8">
+// 			<input type="text" placeholder="search festival name" name="name" />
+// 			<input type="date" class="form-control" name="date" value=""/>
+// 			<input type="text" class="form-control" name="category" value=""/>
+// <!-- 				<select name="family">
+// 					<option value="1">Yes</option>
+// 					<option value="0">No</option>
+// 				</select> -->
+// 			Show only family friendly events?<input type="radio" name="family" value="1">
+// 			Show only free events?<input type="radio" name="free" value="1">
+// 			<button type="submit" id="nameSearch" class="btn btn-primary">Submit</button>
+// 		</form>
+// 	</li>
+
+// <!-- ****************Solution 1-Festopia*************** -->
+
+//searching for all festivals
+router.post('/search',function(req,res){
+	console.log(req.body);
+	//getting input data and turning them into variables to simplify search and pass into query
+	var name = req.body.name;
+	var category = req.body.category;
+	var date = req.body.date;
+	var family = req.body.family;
+	var free = req.body.free;
+	if ( free != 1){
+		free = 0;
+	}
+	//selecting specific data from table Categories in our database
+	// var selectQuery = "SELECT * FROM Categories WHERE Name = ? OR Date = ? OR Family = ?";
+	var selectQuery = "SELECT * FROM Categories WHERE Category = ? OR Date = ? OR Family = ? OR Free = ?";
+	console.log(free);
+	console.log(category)
+	connection.query(selectQuery,[name,date,family,free,category],(error,results)=>{
+		//if results are not found in the database,redirect to page w/ message > not found
+		if(results.length == 0){
+			res.redirect('/cat-template?msg=sorryfestivalnotfound')
+		}else{
+			console.log(category)
+			res.render('cat-template', {
+				//creating keys to display in category template page
+				message:null,
+				searchArray:results,
+				category:category,
+				title:category
+			})
+		}
+	});
+});
