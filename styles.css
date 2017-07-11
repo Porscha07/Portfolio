@@ -43,49 +43,21 @@ p{
     margin-top: 53 em;
 }
 
+.project-one{
+    border: 5px solid black;
+    height: 4em;
+    width: 200px;
+}
+
+
 /* MEDIA Queries */
 
 @media (max-width:995px){
     #first-name-wrapper {
         font-size: 1em;
         margin-bottom: 98px;
-
+        margin-top: 270px;
     }
-/*     #title-wrapper h3{
-        width: 102%;
-    }
-    .enter_link{
-        font-size: 65px;
-    } */
-
 }
-/* @media (min-width:400px){
-    .fest-title {
-        margin-left: -2em;
-        height: 43vh;
-        width: 120vw;
 
-    }
-    .one{
-        width: 102%;
-    }
-    .page-name h1{
-        font-size: 65px;
-        top: 3em;
-    }
-    .page-name h3{
-        font-size: 23px;
-        top: 8em;
-    }
-    #user-items{
-        padding-right: -1px;
-    }
-    #search-modal{
-        margin-right: 2em;
-    }
-    #user{
-        margin-left: -2em;
-    }
 
-}
- */

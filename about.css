@@ -29,6 +29,7 @@ img {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  /* margin-left: 330px; */
 }
 
 .img-responsive{
@@ -153,7 +154,66 @@ font-family:'The Girl Next Door';
   text-align: center;
   font-weight: bold;
 }
+.image1{
+  position: relative;
+  left: -29px;
+}
 
+.image2{
+  position: relative;
+  right: -571px;
+}
+
+.info {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 25%;
+    left: 43%;
+    font-family: 'The Girl Next Door';
+    font-weight: bold;
+  }
+
+.info p{
+  font-size: 50px;
+}
+.info2 {
+    /* padding: 0px; */
+    white-space: nowrap;
+    /* color: white; */
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 253%;
+    right: 671px;
+    font-size: 20px; 
+    font-family:'The Girl Next Door'; 
+    font-weight: bold;
+}
+.info p{
+  font-size: 50px;
+  
+}
+
+
+.links {
+    display: flex;
+}
+
+.links p{
+  font-family:'The Girl Next Door';
+}
+
+.links a {
+    text-decoration: none;
+    background: #509b9b;
+    color: white;
+    border-radius: 0px !important;
+    padding: 10px;
+    margin: auto;
+}
 .row-3 a img {
   margin-bottom:2em
 }
@@ -162,6 +222,13 @@ font-family:'The Girl Next Door';
 }
 .row-2 a img{
   margin-left: -6em;
+}
+.project-feedback{
+   font-family:'The Girl Next Door';
+   font-weight: bold;
+   font-size: 20px;
+   position: relative;
+   top: 20px;
 }
 .contact-form{
   border: 3px solid beige;
