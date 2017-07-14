@@ -143,10 +143,18 @@ font-family:'The Girl Next Door';
   margin-top: -18px;
   margin-right: 71px;
 }
+
+
 /* portfolio styles */
+
+.project-one-container:hover .text {
+  bottom: 0;
+  height: 100%;
+}
 .project-one-container {
   position: relative;
-  width: 50%;
+  /* width: 50%; */
+  margin: 0;
 }
 
 #image1 {
@@ -157,24 +165,25 @@ font-family:'The Girl Next Door';
   height: auto;
 }
 
-#overlay {
+.text{
   position: absolute;
-  bottom: 100%;
+  bottom: 0;
   left: 0;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
-  width: 48%;
-  height:0;
+  width: 100%;
+  height: 0;
   transition: .5s ease;
+  top: 0;
 }
 
-.project-one-container:hover .overlay {
+#image1:hover .overlay {
   bottom: 0;
   height: 50%;
 }
 
-.text {
+/* .text {
   white-space: nowrap; 
   color: black;
   font-size: 20px;
@@ -185,17 +194,21 @@ font-family:'The Girl Next Door';
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   font-family:'The Girl Next Door';
-}
+} */
 
 /* project two styles */
+.project-two-container {
+  position: relative;
+  width: 100%;
+}
 
-.project-two-container:hover .overlay {
+.project-two-container:hover .text {
   bottom: 0;
-  height: 50%;
+  height: 100%;
 }
 
 #image2 {
-  /* display: block; */
+  display: block;
   width: 40em;
   height: auto;
   right: -45em;
@@ -205,35 +218,28 @@ font-family:'The Girl Next Door';
   margin-bottom: 24px;
 }
 
-#overlay {
+.text{
   position: absolute;
-  bottom: 100%;
+  bottom: 0;
   left: 0;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
-  width: 48%;
   height:0;
   transition: .5s ease;
+  top: 0;
+
 }
 
-.project-two-container:hover .overlay {
-  bottom: 0;
-  height: 100%;
-}
 
-.text {
+/* .text {
   white-space: nowrap; 
   color: black;
   font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   font-family:'The Girl Next Door';
-}
+} */
 
 #portfolio h1{
   background-color: lightgrey; 
@@ -242,6 +248,7 @@ font-family:'The Girl Next Door';
   font-size: 40px;
   text-align: center;
 }
+
 #portfolio p{
    font-family:'The Girl Next Door';
   color: black;
@@ -249,7 +256,6 @@ font-family:'The Girl Next Door';
   text-align: center;
   font-weight: bold;
 }
-
 
 
 .info {
@@ -267,24 +273,12 @@ font-family:'The Girl Next Door';
 .info p{
   font-size: 50px;
 }
-#overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
 
-}
-
-#image2:hover .overlay {
+#image2:hover .text {
   bottom: 0;
   height: 100%;
 }
-.overlay{
+/* .text{
    white-space: nowrap;
     color: black;
     font-size: 20px;
@@ -295,20 +289,9 @@ font-family:'The Girl Next Door';
     font-family: 'The Girl Next Door';
     font-weight: bold;
     
-}
-.info p{
-  font-size: 50px;
-  
-}
+} */
 
 
-.overlay {
-    display: flex;
-}
-
-.overlay p{
-  font-family:'The Girl Next Door';
-}
 
 .text a {
     text-decoration: none;
@@ -327,6 +310,9 @@ font-family:'The Girl Next Door';
 .row-2 a img{
   margin-left: -6em;
 }
+
+
+
 
 
  /* contact styles */
