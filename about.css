@@ -21,7 +21,6 @@ body{
 #myNavbar{
   font-family:'The Girl Next Door';
   font-size: 2.5em;
-
 }
 
 img { 
@@ -53,15 +52,14 @@ img {
     width: 250px;
     float: right;
     margin-top: 27em;
-    position: absolute;
+    position: relative;
     margin-left: 51em;
     z-index: 5px;
-
 }
 /* about styles */
-#about {
+/* #about {
   margin-top: 46em;
-}
+} */
 #about h3{
   position: absolute;
   font-size: 3em;
@@ -82,7 +80,7 @@ font-family:'The Girl Next Door';
 #skills img{
   margin-left: -30px;
   width: 106%;
-  height: 258px;
+  height: 37em;
   opacity: 0.3;
   border: 5px solid darkblue;
 }
@@ -92,7 +90,7 @@ font-family:'The Girl Next Door';
   font-family:'The Girl Next Door';
   text-align: center;
   /* border: 2px solid black; */
-  margin-left: 185px;
+  margin-left: 11em;
   font-size: 25px;
   font-weight: bold;
   color: darkblue;
@@ -104,25 +102,28 @@ font-family:'The Girl Next Door';
   font-family:'The Girl Next Door';
   text-align: center;
   /* border: 2px solid black; */
-  margin-left: 647px;
-  margin-top: 21px;
+  margin-left: 27em;
+  margin-top: 38px;
   font-size: 2em;
   font-weight: bold;
   color: darkblue;
 }
 
 .skills-grid{
-  /* border: 2px solid black; */
-  position: absolute;
-  margin-top: 69px;
-  text-align: center;
-  height: 100px;
-  color: black;
-  font-size: 2em;
-  /* padding-bottom: 13.5px; */
+      /* border: 2px solid black; */
+    position: absolute;
+    margin-top: 69px;
+    text-align: center;
+    /* height: 97px; */
+    color: black;
+    font-size: 6em;
+    font-weight: bold;
+    list-style-type: none;
+    padding-bottom: 13.5px;
+    margin-left: 1em;
 }
 .learning-grid{
-  /* border: 2px solid black; */
+  /* border: 2px solid black;
   position: absolute;
   margin-top: 84px;
   text-align: center;
@@ -275,7 +276,7 @@ font-family:'The Girl Next Door';
     margin-right: 7em;
   }
 
-/* 
+
 .row-3 a img {
   margin-bottom:2em
 }
@@ -285,7 +286,7 @@ font-family:'The Girl Next Door';
 .row-2 a img{
   margin-left: -6em;
 }
- */
+
 
 
 
