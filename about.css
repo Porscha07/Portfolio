@@ -85,7 +85,7 @@ font-family:'The Girl Next Door';
   border: 5px solid darkblue;
 }
 /* what I know */
-#skills h2{   
+#skills h1{   
   position: absolute;
   font-family:'The Girl Next Door';
   text-align: center;
@@ -96,7 +96,7 @@ font-family:'The Girl Next Door';
   color: darkblue;
 }
 /* what I'm learning */
-#future-skills h2{
+#future-skills h1{
   position: absolute;
   /* padding-left: 711px; */
   font-family:'The Girl Next Door';
