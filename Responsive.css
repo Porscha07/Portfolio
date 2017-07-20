@@ -1,0 +1,26 @@
+#headerNav {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+	font-size: 2em;
+}
+
+#about-link, #projects-link, #skills-link, #shop-link, #contact-link{
+	color: white;
+	text-shadow: 1px 1px black;
+	text-decoration: none;
+	font-family: 'Scope One', serif;
+	padding-left: 3em;
+}
+
+#logo-link{
+	 position: absolute;
+    top: 8px;
+    left: -21em;
+    font-size: 18px;
+}
+
+#about-link:hover, #projects-link:hover, #skills-link:hover, #shop-link:hover, #contact-link:hover{
+	/* font-size: 115%; */
+	color: pink;
+}

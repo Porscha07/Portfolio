@@ -14,6 +14,10 @@ body{
   border: 1px solid darkblue;
   height: 54px;
 }
+.navbar-brand img{
+    position: relative;
+    top: -0.5em;
+}
 
 .icon-bar {
   background-color: #224cbd;
@@ -34,7 +38,7 @@ img {
 
 .img-responsive{
 	height: 30em;
-	width: 89em;
+	width: 91em;
 	margin-top: 2em;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -50,11 +54,11 @@ img {
     /* border-bottom-right-radius: 2em; */
     margin-right: 17em;
     width: 250px;
-    float: right;
+    /* float: center; */
     margin-top: 27em;
     position: relative;
     margin-left: 51em;
-    z-index: 5px;
+    /* z-index: 5px; */
 }
 /* about styles */
 /* #about {
@@ -66,23 +70,33 @@ img {
   font-weight: bold;
   font-family:'The Girl Next Door';
   margin-top: -102px;
+  margin-left: 29px;
 }
 #about p{
 /* position: absolute; */
-font-size:1.5em;
+font-size:20px;
 font-weight: bold;
 margin-top: 0em;
 font-family:'The Girl Next Door';
+margin-left: 29px;
+margin-right: 29px;
 }
 
 /* skills styles */
-
+/* 
 #skills img{
   margin-left: -30px;
   width: 106%;
   height: 37em;
   opacity: 0.3;
-  border: 5px solid darkblue;
+  border: 5px solid darkblue; */
+  #skills img {
+    margin-left: -30px;
+    height: 53em;
+    opacity: 0.3;
+    border: 5px solid darkblue;
+    margin-left: 59px;
+    margin-right: 87px;
 }
 /* what I know */
 #skills h1{   

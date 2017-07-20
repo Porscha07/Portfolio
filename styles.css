@@ -21,8 +21,9 @@
     left:0;
     bottom:0;
     width:100%;
-    background-image: url("file:///Users/Porscha/Downloads/leaves.jpeg");
-    background-repeat: no-repeat;
+    height: 100%;
+    background-image: url("./images/leaves.jpeg");
+    /* background-repeat: no-repeat; */
 }
 body {
     background-color:beige;
@@ -57,6 +58,12 @@ p{
         font-size: 1em;
         margin-bottom: 98px;
         margin-top: 270px;
+  /*   font-size: 175%;
+    margin-bottom: 98px;
+    margin-top: 56%;
+    }
+    #title-wrapper{
+        font-size: 150%; */
     }
 }
 
