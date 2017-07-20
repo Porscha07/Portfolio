@@ -1,3 +1,5 @@
+/* **************************************************Welcome Message Styles******************************************************** */
+
 #headerNav {
 	position: absolute;
 	top: 8px;
@@ -14,7 +16,7 @@
 }
 
 #logo-link{
-	 position: absolute;
+	position: absolute;
     top: 8px;
     left: -21em;
     font-size: 18px;
@@ -23,4 +25,18 @@
 #about-link:hover, #projects-link:hover, #skills-link:hover, #shop-link:hover, #contact-link:hover{
 	/* font-size: 115%; */
 	color: pink;
+}
+
+/* *************************************************Why Hire Me Styles********************************************************* */
+
+ #hireMeText{
+ 	margin-top: 1em;
+	text-align: center;
+	font-family: 'Scope One';
+	font-weight: bold;
+	font-size: 4em;
+}
+
+.img-rounded{
+	margin-bottom: 1em;
 }
