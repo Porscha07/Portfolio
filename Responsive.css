@@ -7,6 +7,10 @@
 	font-size: 2em;
 }
 
+.navLinks{
+
+}
+
 #about-link, #projects-link, #skills-link, #shop-link, #contact-link{
 	color: white;
 	text-shadow: 1px 1px black;
@@ -15,11 +19,12 @@
 	padding-left: 3em;
 }
 
-#logo-link{
-	position: absolute;
+#logo-div{
+	/* position: absolute; */
     top: 8px;
-    left: -21em;
+    left: 0;
     font-size: 18px;
+    float: left;
 }
 
 #about-link:hover, #projects-link:hover, #skills-link:hover, #shop-link:hover, #contact-link:hover{
@@ -58,6 +63,41 @@ h2{
 
 h2:hover{
 	color: pink;
+}
+
+#hireMePic1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/Portfolio-Pic-5.jpg");
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+#hireMeBox1{
+    margin-bottom: 2em;
+}
+
+#hireMePic2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/Portfolio-Pic-4.jpg");
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+#hireMeBox2{
+    margin-bottom: 2em;
+}
+#hireMePic3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/Portfolio-Pic-9.jpg");
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 /* ****************************************************** About Me******************************************************** */
@@ -124,7 +164,6 @@ h4:hover{
 .festText,.writeText,.todoText p{
 	font-size: 15px;
 	font-family: 'Scope One';
-	font-weight: bold;
 }
 
 
@@ -139,7 +178,7 @@ h4:hover{
     font-family: 'Scope One';
     font-size: 15px;
     height: 10px;
-    margin-right: 7em;
+    margin-right: 2em;
   }
 
  /*  .todoText p{
@@ -160,7 +199,7 @@ h4:hover{
     font-family: 'Scope One';
     font-size: 15px;
     height: 10px;
-    margin-right: 7em;
+    margin-right: 2em;
   }
 
  /*   .writeText p{
@@ -170,27 +209,35 @@ h4:hover{
 } */
 
 
-.writeText a {
+/* .writeText a {
     text-decoration: none;
     background:grey;
     color: white;
     border-radius: 8px;
     padding: 8px;
-    /* margin: auto; */
+    margin: auto;
     text-align: center;
     font-family: 'Scope One';
     font-size: 15px;
     height: 10px;
-    margin-right: 7em;
-  }
-/* ***************************************Contact/Footer Section************************************************** */
+    margin-right: 2em;
+} */
 
+.coming-soon {
+    font-weight: bolder;
+}
+
+/* ***************************************Contact/Footer Section************************************************** */
+#contact{
+     margin-left: -4.0em;
+}
 #contact p{
   font-family:'Scope One';
   color: black;
   font-size: 20px;
   text-align: center;
   font-weight: bold;
+  margin-left: 1em;
 }
 /*  .contact .container {
     max-width: 750px;
@@ -211,4 +258,21 @@ h4:hover{
      margin-bottom: 37px;
   }
 
+/* *****************************Media Queries*************************************************************************** */
+
+@media (max-width: 400px) {
+    h4{
+        margin-top: -1em;
+    }
+
+    .social-icons{
+        margin-right: 4.75em;
+    }
+    .social-icons ul li{
+        font-size: 1.2em;
+    }
+    .learningIcons h3{
+        margin-left: -2em;
+    }
+}
 
