@@ -15,22 +15,15 @@
     z-index: 3;
 }
 
-.navLinks{
-    float: right;
-    padding: 0px 20px;
-    padding-right: 20px;
-    line-height: 35px;
-}
 
 .navbar-nav li{
     display: inline-block;
     list-style: none;
-    padding: 18px 30px;
-    font-size: 2em;
+    padding: 0px 24px;
     background-color: white;
 }
 
-#about-link, #hireMe-link,#projects-link, #skills-link, #shop-link, #contact-link{
+#about-link, #hireMe-link,#portfolio-link, #skills-link, #shop-link, #contact-link{
 	color: black;
 	text-decoration: none;
 	font-family: 'Scope One', serif;
@@ -44,7 +37,7 @@
 }
 
 
-#about-link:hover,#hireMe-link:hover, #projects-link:hover, #skills-link:hover, #shop-link:hover, #contact-link:hover{
+#about-link:hover,#hireMe-link:hover, #portfolio-link:hover, #skills-link:hover, #shop-link:hover, #contact-link:hover{
 	/* font-size: 115%; */
 	color: pink;
     text-shadow: 1px 1px black;
@@ -52,7 +45,14 @@
 
 #logo-link{
    margin-top: -1em;
-   margin-left: -2em;
+   margin-left: -1em;
+}
+
+#menu li{
+  font-size: 2em;
+}
+#menu{
+  width: 100vw;
 }
 
 /* *************************************************Why Hire Me Styles********************************************************* */
@@ -301,12 +301,14 @@ h4:hover{
         margin-top: 1em;
     }
     #hireMe-link{
-        margin: -2em;
+        font-size: 15px;
     }
-/* .navlinks{
-  display: none;
-}
-.navbar-nav li{
-  font-size: 1em;
-} */
+    #menu li{
+    margin-top: 10px;
+    font-size: 15px;
+    height: 2;
+    }
+    .img-responsive{
+      margin-top: 8em;
+    }
 }
