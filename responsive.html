@@ -2,6 +2,7 @@
 <head>
 	<title>Porscha Johnson's Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image" href="./images/Porscha-Johnson-logo.png">
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,8 +14,8 @@
 	<!-- Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Scope One|Serif' rel='stylesheet'>
 	<!-- JS -->
-<!-- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
 </head>
@@ -23,22 +24,25 @@
 <!-- ************************** Welcome Section**************************** -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
-    <ul class="nav navbar-nav">
+  <div class="col-sm-12">
+    <ul class="nav navbar-nav col-sm-2">
   		<li><a id="logo-link" href="#home">
 		<img alt="Brand" src="./images/Porscha-Johnson-logo.png">
 		</a></li>
 		<ul id="menu">
-				<li><a id="about-link" href="#about">About</a></li>
-				<li><a id="hireMe-link" href="#hireMe">Why Hire Me? </a></li>
-				<li><a id="skills-link" href="#skills">Skills</a></li>
-				<li><a id="portfolio-link" href="#portfolio">Portfolio</a></li>
-				<li><a id="contact-link" href="#contact">Contact</a></li>
+				<li class="col-sm-2"><a id="about-link" href="#about">About</a></li>
+				<li class="col-sm-2"><a id="hireMe-link" href="#hireMe">Why Hire Me? </a></li>
+				<li class="col-sm-2"><a id="skills-link" href="#skills">Skills</a></li>
+				<li class="col-sm-2"><a id="portfolio-link" href="#portfolio">Portfolio</a></li>
+				<li class="col-sm-2"><a id="contact-link" href="#contact">Contact</a></li>
 		</ul>
+		</div>
     </ul>
+    </div>
   </div>
 </nav>
-		<div class="home-wrapper">
-			<img src="./images/Portfolio-Pic-6.jpg" img class="img-responsive">
+		<div class="home-wrapper col-sm-12">
+			<img src="./images/Portfolio-Pic-6.jpg" class="img-responsive">
 		</div>
 	</div>
 </nav>
@@ -49,13 +53,15 @@
 								<div id="about">
 									<h1>About Me</h1>
 								</div>
-								<div id="aboutMeImg">
+							</div>
+								<div id="aboutMeImg col-sm-6">
 									<img src="./images/Portfolio-Pic-7.jpg" alt="Headshot" class="img-rounded">
-									<div class="col-sm-6">
-										<div id="aboutMeText">
+								</div>
+									<!-- <div class="col-sm-6"> -->
+										<div id="aboutMeText col-sm-6">
 											<p> I am a former Healthcare Human Resources Professional who has worked hard to become a  Full Stack Developer. I also have a B.A. in International Affairs from the University of Georgia. My awareness of the far-reaching impact coding could have on solving real world problems, prompted me to make a mark in the field of web development. Ambition is the  driving force behind my creative eye, inquisitive mind, and well-honed communication skills. <br>	
 											<br>
-	 										My desire is to deepen my knowledge of front and back-end technologies while working with a supportive team of passionate developers. My strengths include a process-oriented style of learning new technologies, methodical approach to solving problems, and perseverance in debugging code. I am an accomplished Toastmaster, avid traveler, lover of music festivals and can be spotted trying new vegan restaurants around Atlanta.</p>
+	 										My desire is to deepen my knowledge of front- and back-end technologies while working with a supportive team of passionate developers. My strengths include a process-oriented style of learning new technologies, methodical approach to solving problems, and perseverance in debugging code. I am an accomplished Toastmaster, avid traveler, and lover of music festivals and can be spotted trying new vegan restaurants around Atlanta.</p>
 	 									</div>
 	 								</div>
 	 							</div>
@@ -64,7 +70,7 @@
 						<hr>
 <!-- ****************************************Why Hire Me Section******************************************************* -->
 
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div id="hireMe">
 					<h1>Why Hire Me ?<h1>
@@ -142,7 +148,8 @@
 														<u><h3>What I'm Learning</h3></u>
 														<i class="devicon-wordpress-plain-wordmark "></i>
 												 		<i class="devicon-php-plain"></i>
-												 		<i class="devicon-anjular-plain"></i>
+												 		<i class="devicon-illustrator-plain"></i>
+												 		<i class="devicon-photoshop-plain"></i>
 												 		</ul>
 													</div>
 												</div>
@@ -174,7 +181,7 @@
 														<img src="./images/homepage.png" alt="todo" class="img-rounded">
 														 <div class="todoText">
 													            <p>To-Do for You is a web application that<br> provides a concise and creative way to keep<br> all of your activities organized. Users can<br>create an account and have the ability to add,<br> edit and delete tasks.</p>
-													           <p>Technologies Used: HTML, CSS,JavaScript,<br>jQuery, Express, A.W.S, Node.js, MySQL</p>
+													           <p>Technologies Used: HTML, CSS, JavaScript,<br>jQuery, Express, A.W.S, Node.js, MySQL</p>
 															  <a target="_blank" href="https://github.com/Porscha07/ToDo-List-App">	Git Hub</a>				               
 															  <a target="_blank" href="" title="Live Site">Live Site</a>
 															  <a target="_blank" href="http://bit.ly/ToDoForYouLiveVideo" title="Video">Video</a>
@@ -187,7 +194,7 @@
 															<img src="./images/home_page.png" alt="write" class="img-rounded">
 															<div class="writeText">
 													            <p>WriteIT is a productivity tool for writers,<br> offering a variety of ways to organize,<br> structure, and plan manuscripts. It also <br>incorporates a social networking feature that<br> allows writers to share their work and receive<br> or give feedback.</p>
-													           <p>Technologies Used: React,Redux,HTML, CSS,JavaScript,jQuery, Express, A.W.S,SASS, Node.js,<br> MySQL</p>
+													           <p>Technologies Used: React, Redux, HTML, CSS,<br> JavaScript, jQuery, Express, A.W.S, Sass, Node.js,<br> MySQL</p>
 
 													           <p class="coming-soon">COMING SOON- Final Capstone Project</p>
 															  <!-- <a target="_blank" href="_blank">	Git Hub</a>				                -->
