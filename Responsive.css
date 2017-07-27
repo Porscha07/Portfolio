@@ -305,10 +305,25 @@ h4:hover{
         left: -23%;
     }
     h4{
-        left: -16%;
+        left: -23%;
+    }
+    /* #aboutMeImg{
+        margin-left: 0em;
+    }
+    #aboutMeText{
+        margin-right: 5em;
+        margin-top: -20em;
+    }
+} */
+
+@media only screen and (max-width:1283px){
+    h4{
+        left: -10%;
+    }
+    h2{
+        left: -10%;
     }
 }
-
 
 @media only screen and (max-width: 400px) {
     h4{
