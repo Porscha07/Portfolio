@@ -1,6 +1,10 @@
 /* **************************************************Welcome Message Styles******************************************************** */
 .container-fluid{
   background-color: white;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+  /* padding-left: 0px; */
+  /* padding-right: 0px; */
 }
 #headerNav {
 	position: fixed;
@@ -53,7 +57,7 @@
 }
 #menu{
   width: 100vw;
-  margin-top: 1em;
+  margin-top: -1em;
 }
 
 .homewrapper{
@@ -141,7 +145,10 @@ h1{
 	text-align: center;
 	font-size: 4em;
 	font-weight: bold;
+}
 
+#aboutMeImg{
+    /* margin-left: 10em; */
 }
 /* ************************************************Skills*************************************************************** */
 
@@ -293,6 +300,15 @@ h4:hover{
   }
 
 /* *****************************Media Queries*************************************************************************** */
+@media only screen and (max-width: 1920px) {
+    h2{
+        left: -23%;
+    }
+    h4{
+        left: -23%;
+    }
+}
+
 
 @media only screen and (max-width: 400px) {
     h4{
@@ -321,5 +337,11 @@ h4:hover{
     }
     .img-responsive{
       margin-top: 8em;
+    }
+    h2{
+        left: -8%;
+    }
+    h4{
+        left: -8%;
     }
 }
