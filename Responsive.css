@@ -354,8 +354,6 @@ h4:hover{
     }
     .img-responsive{
       margin-top: 8em;
-      padding-right: 0px;
-      padding-left: 0px;
     }
     h2{
         left: -8%;
@@ -364,7 +362,6 @@ h4:hover{
         left: -8%;
     }
     #aboutMeText{
-        margin-left: 1em;
-        font-size: ;
+        margin-left: 1em; 
     }
 }
