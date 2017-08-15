@@ -247,7 +247,7 @@ h4:hover{
 } */
 
 
-/* .writeText a {
+.writeText a {
     text-decoration: none;
     background:grey;
     color: white;
@@ -259,11 +259,11 @@ h4:hover{
     font-size: 15px;
     height: 10px;
     margin-right: 2em;
-} */
-
-.coming-soon {
-    font-weight: bolder;
 }
+
+/* .coming-soon {
+    font-weight: bolder;
+} */
 
 /* ***************************************Contact/Footer Section************************************************** */
 #contact{
