@@ -195,11 +195,11 @@ h4:hover{
 	color: pink;
 }
 
-#festopiaBox,#todoBox,#writeBox{
+#festopiaBox,#veganBox,#writeBox{
 	margin-top: 5em;
 }
 
-.festText,.writeText,.todoText p{
+.festText,.writeText,.veganText p{
 	font-size: 15px;
 	font-family: 'Scope One';
 }
@@ -219,7 +219,7 @@ h4:hover{
     margin-right: 2em;
   }
 
-.todoText a {
+.veganText a {
     text-decoration: none;
     background:yellowgreen;
     color: white;
